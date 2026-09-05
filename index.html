@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no">
+<title>UNDERTALE : 갈라진 대지</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div id="stage">
+    <canvas id="screen" width="640" height="480"></canvas>
+  </div>
+  <div id="hint">
+    <b>Z</b> 확인 &nbsp; <b>X</b> 취소 &nbsp; <b>C</b> 메뉴 &nbsp; <b>방향키</b> 이동 &nbsp; <b>M</b> 음소거 &nbsp; <b>F</b> 전체화면
+  </div>
+
+  <!-- ===== core ===== -->
+  <script src="js/core/util.js"></script>
+  <script src="js/core/input.js"></script>
+  <script src="js/core/audio.js"></script>
+  <script src="js/core/sprite.js"></script>
+  <script src="js/core/dialog.js"></script>
+  <script src="js/core/game.js"></script>
+  <!-- ===== data ===== -->
+  <script src="js/data/sprites.js"></script>
+  <script src="js/data/items.js"></script>
+  <script src="js/data/patterns.js"></script>
+  <script src="js/data/enemies.js"></script>
+  <script src="js/data/maps.js"></script>
+  <script src="js/data/story.js"></script>
+  <!-- ===== scenes ===== -->
+  <script src="js/scenes/title.js"></script>
+  <script src="js/scenes/naming.js"></script>
+  <script src="js/scenes/overworld.js"></script>
+  <script src="js/scenes/battle.js"></script>
+  <script src="js/scenes/menu.js"></script>
+  <script src="js/scenes/gameover.js"></script>
+  <script src="js/scenes/ending.js"></script>
+  <!-- ===== boot ===== -->
+  <script src="js/main.js"></script>
+</body>
+</html>
