@@ -8,7 +8,7 @@ html, body {
   touch-action:none;
 }
 #stage {
-  position:absolute; inset:0;
+  position:absolute; left:0; right:0; top:0; bottom:28px;
   display:flex; align-items:center; justify-content:center;
 }
 #screen {

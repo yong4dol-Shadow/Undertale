@@ -47,8 +47,8 @@
     },
 
     resize() {
-      const pad = 24;
-      const sw = window.innerWidth - pad, sh = window.innerHeight - pad;
+      /* 아래쪽 조작 안내가 화면과 겹치지 않도록 여백을 둔다 */
+      const sw = window.innerWidth - 16, sh = window.innerHeight - 44;
       let scale = Math.min(sw / this.W, sh / this.H);
       if (scale > 1) scale = Math.max(1, Math.floor(scale * 2) / 2);
       this.canvas.style.width = Math.floor(this.W * scale) + 'px';
